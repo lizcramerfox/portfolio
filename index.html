@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Additional icons from mfizz-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css" rel="stylesheet" type="text/css"/>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -23,73 +25,128 @@
               <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/fox-logo.jpg" alt="" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
                 </ul>
             </div>
         </nav>
-        <!-- Page Content-->
+
+        <!-- Page Content -->
         <div class="container-fluid p-0">
-            <!-- About-->
+            
+            <!-- About -->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Liz
-                        <span class="text-primary">Cramer Fox</span>
+                        Liz <span class="text-primary">Cramer Fox</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Boston, MA ·
-                        <a href="mailto:ecfox2008@gmail.com">ecfox2008@gmail.com</a>
+                        Boston, MA · <a href="mailto:ecfox2008@gmail.com">ecfox2008@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">
-                      I'm STEM communications specialist with a background in immigration law and 12+
-                      years experience promoting STEM education and diversity. I'm also a Coding Bootcamp
-                      graduate armed with a full-stack toolbelt and ready to create technical solutions
-                      for STEM diversity in both academia and government.
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/liz-cramer-fox/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/lizcramerfox"><i class="fab fa-github"></i></a>
+                    <p class="lead mb-2"><span class="text-primary">Junior software engineer</span> with an ever-expanding full-stack toolbelt and a passion for user-centered design.</p> 
+                    <p class="lead mb-2">STEM communications specialist with <span class="text-primary">12+ years experience</span>.</p> 
+                    <p class="lead mb-5 text-primary">Lifelong learner.</p>
+
+                    <div class="social-icons mt-5">
+                        <a class="social-icon mt-3" href="https://www.linkedin.com/in/liz-cramer-fox/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon mt-3" href="https://github.com/lizcramerfox"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
 
-            <!-- Experience-->
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="card-deck">
+                        
+                        <!-- Mancala App -->
+                        <div class="card" style="width: 40%; min-width: 20rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Mancala Game App</h3>
+                                <p class="card-text">
+                                    A web-based SPA version of the classic Mancala game. Includes fully custom-made SASS styling, 
+                                    user login, and the ability to save games.
+                                </p>
+                                <div><i class="fab fa-react mr-2"></i>React</div>
+                                <div><i class="icon-ruby-on-rails-alt mr-2"></i>Ruby-on-Rails</div>
+                                <div><i class="fab fa-sass mr-2"></i>SASS</div>
+                                <a class="btn btn-primary mt-4 mb-1" href="#" role="button">Play the Game</a>
+                            </div>
+                            <div class="card-footer">
+                                <i class="fab fa-github mr-2"></i>
+                                <a href="https://github.com/lizcramerfox/mancala-client" class="card-link">View Client Repository</a>
+                                <a href="https://github.com/lizcramerfox/mancala-api" class="card-link">View API Repository</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Family Archives App -->
+                        <div class="card" style="width: 40%; min-width: 20rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Family Memories Archive</h3>
+                                <p class="card-text">
+                                    A simple React-based app which allows an authenticated user to create, read, 
+                                    update, and delete a set of memories.
+                                </p>
+                                <div><i class="fab fa-react mr-2"></i>React</div>
+                                <div><i class="icon-ruby-on-rails-alt mr-2"></i>Ruby-on-Rails</div>
+                                <div><i class="fab fa-bootstrap mr-2"></i>Bootstrap</div>
+                                <a class="btn btn-primary mt-4 mb-1" href="https://lizcramerfox.github.io/family-archive-client/#/" role="button">View the App</a>
+                            </div>
+                            <div class="card-footer">
+                                <i class="fab fa-github mr-2"></i>
+                                <a href="https://github.com/lizcramerfox/family-archive-client" class="card-link">View Client Repository</a>
+                                <a href="https://github.com/lizcramerfox/Family-Archive-API" class="card-link">View API Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            
+            <!-- Experience -->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Software Engineering Fellow</h3>
-                            <div class="subheading mb-3">General Assembly Boston (SEI-09)</div>
-                            <p>Hands-on training in a 12-week, 500+ hour intensive software engineering program. Developed three full-stack projects using Agile development techniques and Git workflow in a real-time development environment (3-5 day sprints).</p>
+                            <div class="subheading mb-3">General Assembly Boston (SEI-09) - Boston, MA</div>
+                            <p>
+                                Hands-on training in a 12-week, 500+ hour software engineering fellowship program. Developed three full-stack 
+                                projects using Agile development techniques and Git workflow in a real-time development environment (3-5 day 
+                                sprints).
+                            </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">February 2020 - May 2020</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Immigration Paralegal, STEM & Humanitarian Petition Specialist</h3>
                             <div class="subheading mb-3">Iandoli Desai & Cronin, PC - Boston, MA</div>
                             <p>
-                              Researched, prepared, and filed employment-based immigrant and nonimmigrant casework for high-profile foreign nationals at the top of their
-                              field of endeavor, specializing in STEM, academia, and healthcare. Primary focus on writing, editing, and indexing materials for EB-1A, EB-1B,
-                              NIW, O-1A, O-1B, and J-1 §212(e) waivers. Researched, prepared, and filed humanitarian- and family-based applications, waivers, and requests
-                              for special processing, including: Violence Against Women Act (VAWA) Waivers for victims of domestic abuse or neglect, K-1 Fiance Visa Waivers
-                              and Special Handling for same-sex partners from countries where homosexuality is illegal or not culturally accepted (Syria, Turkey, Iran, etc.),
-                              Deferred Action Requests for Childhood Arrivals (DACA) and other humanitarian reasons (i.e. serious medical need), J-1 Home Residency Waivers
-                              (Clinical Need, Fear of Persecution & Extreme Hardship)
+                                Researched, wrote, and prepared employment-based petitions for high-profile foreign nationals at the top of their
+                                field of endeavor, specializing in STEM, academia, and healthcare. 
+                            </p>
+                            <p>
+                                Also specialized in humanitarian-based special petitions for victims of abuse, human trafficking, and religious or
+                                political persecution.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">April 2013 - February 2019</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Program Assistant (Temp), Alumni Relations & Events</h3>
                             <div class="subheading mb-3">Harvard Business School - Boston, MA</div>
@@ -97,19 +154,18 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">February 2013 - April 2013</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Senior Administrative Assistant (Temp), Graduate Program</h3>
                             <div class="subheading mb-3">Harvard Law School - Cambridge, MA</div>
                             <p>
                               Managed scheduling for the two-week Graduate Program Orientation for ~200 incoming LL.M. and S.J.D students (primarily international students).
-                              Created and updated templates for student orientation schedules and booklets. Copy-edited and formatted the HLS Graduate Program’s 2012-2013
-                              Handbook and print “Facebook.”
+                              Created and updated templates for student orientation schedules and booklets.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2012 - September 2012</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Administrative Assistant (Temp), Annual Fund</h3>
                             <div class="subheading mb-3">Harvard Law School - Cambridge, MA</div>
@@ -120,7 +176,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2012 - June 2012</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Research Assistant (Temp), Program on the Legal Profession</h3>
                             <div class="subheading mb-3">Harvard Law School - Cambridge, MA</div>
@@ -132,26 +188,25 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">November 2011 - February 2012</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Asst. Store Coordinator (Promotion), Engineering is Elementary (EiE)</h3>
                             <div class="subheading mb-3">Museum of Science - Boston, MA</div>
                             <p>
-                              Coordinated sales and distribution of > $2m in Engineering is Elementary® curricular materials. Supervised one assistant.
-                              Maintained PostgreSQL-based EiE development database and created custom reports with SQL queries.
-                              Developed multimedia materials for use at national conferences and professional development workshops.
+                              Coordinated sales and distribution of > $2m in Engineering is Elementary® curricular materials. 
+                              Maintained PostgreSQL-based EiE development database and created custom reports with SQL queries
                               Conducted student interviews for SPSS-based validity testing of curricular materials.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2009 - October 2011</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Production Secretary (Promotion)/Web Intern, NOVA</h3>
                             <div class="subheading mb-3">WGBH Public Television - Boston, MA</div>
                             <p>
-                              Maintained database and digital archiving for the long-running science documentary television show NOVA. As Web Intern,
-                              researched and developed interactive content for episode-specific companion websites.
+                                Maintained database and digital archiving for the long-running science documentary television show NOVA. As Web Intern,
+                                researched and developed interactive content for episode-specific companion websites.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2008 - August 2008</span></div>
@@ -167,42 +222,45 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 class="mb-0">General Assembly - Boston, MA</h3>
+                            <div class="subheading mb-3">Software Engineering Intensive Course (SEI-09)</div>
+                            <p>Full-Stack Software Engineering Fellowship</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2020 - May 2020</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 class="mb-0">Emerson College - Boston, MA</h3>
+                            <div class="subheading mb-3">Bachelor of Science</em></div>
+                            <p>Print and Multimedia Journalism <em>(cum laude)</em></p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2004 - May 2008</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
+            
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
+                    <ul class="list-inline dev-icons mb-3">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node"></i></li>
                         <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="icon-postgres"></i></li>
+                        <li class="list-inline-item"><i class="icon-ruby"></i></li>
+                        <li class="list-inline-item"><i class="icon-ruby-on-rails-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
                         <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-git-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-slack"></i></li>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
@@ -212,15 +270,11 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
                             Agile Development & Scrum
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Git Version Control
                         </li>
                     </ul>
                 </div>
@@ -230,54 +284,20 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p>I'm a former Open Champion Irish Step Dancer, and have competed extensively at Regional, National, and World Championship events. I was the 2001 New England Regional Champion for my age group as a soloist, as well as a two-time North American Champion (5th in the World) in team competitions.</p>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="certifications">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Certifications</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
+                            Notary Public - Commonwealth of Massachusetts
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
                     </ul>
                 </div>
             </section>
