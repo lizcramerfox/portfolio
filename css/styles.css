@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #f5f1e9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10178,6 +10178,15 @@ section.resume-section .resume-section-content {
   }
 }
 
+.card {
+  background-color: #ede6d8;
+  margin-top: 1rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
 .card-footer {
-  background-color: #d4c4a4;
+  background-color: #fdfcfb;
 }
